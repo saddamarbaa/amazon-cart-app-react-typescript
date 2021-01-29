@@ -10,3 +10,5 @@ const ForTest = ({ test }) => {
 };
 
 export default ForTest;
+export const testVaraible1 = 12;
+export const testVaraible2 = 1;
