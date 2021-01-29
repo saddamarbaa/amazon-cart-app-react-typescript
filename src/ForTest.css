@@ -1,0 +1,9 @@
+.test {
+  font-size: large;
+  color: black;
+  background-color: yellow;
+  text-align: center;
+  width: 80%;
+  margin: 10px auto;
+  border: 1px solid red;
+}

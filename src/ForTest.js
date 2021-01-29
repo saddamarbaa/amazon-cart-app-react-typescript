@@ -1,9 +1,12 @@
 import React from "react";
 import "./ForTest.css";
 
+// this only for test will be remove
 // Test components(child components)
-function ForTest() {
-  return <div></div>;
-}
+
+const ForTest = ({ test }) => {
+  console.log(test);
+  return <div className="test"> {test}</div>;
+};
 
 export default ForTest;
