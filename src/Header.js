@@ -7,6 +7,7 @@ const Header = (props) => {
   const { title } = props;
   // console.log(props);
   // console.log(title);
+
   return (
     <div className="App-header">
       <h1>{title}</h1>

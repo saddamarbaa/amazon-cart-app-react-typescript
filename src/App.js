@@ -3,10 +3,10 @@ import Header from "./Header";
 import "./App.css";
 
 // App components(parent components)
+
 const App = () => {
   return (
     <div className="App">
-      <Header title="Amazon Cart" />
       <Header title="Amazon Cart" />
     </div>
   );
