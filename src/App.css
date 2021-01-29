@@ -1,8 +1,7 @@
-.App {
-  text-align: center;
-  text-decoration: underline;
-}
-
-.h1-style {
-  color: chartreuse;
+.App-header {
+  display: flex;
+  background-color: #0a2546;
+  color: white;
+  align-items: center;
+  justify-content: center;
 }
