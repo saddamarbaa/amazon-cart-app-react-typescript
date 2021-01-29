@@ -1,13 +1,13 @@
 import React from "react";
-
+import Header from "./Header";
 import "./App.css";
 
+// App components(parent components)
 const App = () => {
   return (
     <div className="App">
-      <div className="App-header">
-        <h1>Amazon Cart</h1>
-      </div>
+      <Header title="Amazon Cart" />
+      <Header title="Amazon Cart" />
     </div>
   );
 };
