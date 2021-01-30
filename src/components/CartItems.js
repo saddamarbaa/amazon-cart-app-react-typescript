@@ -1,7 +1,8 @@
 import React from "react";
 import "./CartItems.css";
 
-// CartItems component(child components)
+// CartItems component(child component)
+
 const CartItems = ({ title }) => {
   return (
     <div className="CartItems">

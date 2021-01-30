@@ -1,7 +1,7 @@
 import React from "react";
 import "./CartTotal.css";
 
-// CartTotal component(child components)
+// CartTotal component(child component)
 const CartTotal = ({ title }) => {
   return (
     <div className="CartTotal">
