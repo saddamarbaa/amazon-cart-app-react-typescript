@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./Header";
-import CartItems from "./CartItems";
+import AppMain from "./AppMain";
+
 import "./App.css";
 
 // App component(parent components)
@@ -10,13 +11,7 @@ const App = () => {
     <div className="App">
       <Header title="Amazon Cart" />
 
-      <div className="App-main">
-        <CartItems title="Shopping Cart" />
-
-        <div className="CartTotal">
-          <h1>Cart Total</h1>
-        </div>
-      </div>
+      <AppMain />
     </div>
   );
 };

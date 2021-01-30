@@ -2,13 +2,3 @@
   text-align: center;
   background-color: #eaeded;
 }
-
-.App-main {
-  display: flex;
-  padding: 14px 18px 0 18px;
-}
-
-.CartTotal {
-  background-color: white;
-  flex: 0.3;
-}
