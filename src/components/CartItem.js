@@ -24,8 +24,14 @@ const CartItem = () => {
         <div className="info-stock">In Stock</div>
 
         <div className="item-actions">
-          <div className="item-quantity"> Quantity </div>
-          <div className="item-actions-divider">| </div>
+          <div className="item-quantity">
+            <select>
+              <option value="1">QTY: 1</option>
+              <option value="2">QTY: 2</option>
+              <option value="3">QTY: 3</option>
+            </select>
+          </div>
+          <div className="item-actions-divider">|</div>
           <div className="item-delete">Delete</div>
         </div>
       </div>
