@@ -1,0 +1,13 @@
+.Temp {
+  background-color: lightseagreen;
+  text-align: center;
+  font-size: large;
+  width: 78%;
+  margin: auto;
+  margin-top: 50px;
+}
+.btn,
+p {
+  border: 2px solid red;
+  padding: 10px;
+}
