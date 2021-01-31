@@ -5,11 +5,6 @@ import CartTotal from "./components/CartTotal";
 import data from "./Data";
 import "./App.css";
 
-/*********************** */
-// this will be removed
-import Temp from "./Temp";
-/*********************** */
-
 // App component(parent component)
 
 const App = () => {
@@ -25,11 +20,6 @@ const App = () => {
         <CartItems items={cartItems} />
         <CartTotal title="Cart Total" />
       </div>
-
-      {/* this will be removed */}
-      <Temp />
-
-      {/* this will be removed */}
     </div>
   );
 };
