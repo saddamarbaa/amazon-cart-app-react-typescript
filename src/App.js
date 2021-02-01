@@ -18,7 +18,7 @@ const App = () => {
       <Header title="Amazon Cart" />
       <div className="App-main">
         <CartItems items={cartItems} />
-        <CartTotal title="Cart Total" />
+        <CartTotal />
       </div>
     </div>
   );
