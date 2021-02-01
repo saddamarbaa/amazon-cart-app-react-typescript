@@ -11,14 +11,14 @@ const App = () => {
   // Declare a new state variable, which we'll call "cartItems"
   const [cartItems, setCartItems] = useState(data);
   // console.log(data);
-  // console.log(cartItems);
+  console.log(cartItems);
 
   return (
     <div className="App">
       <Header title="Amazon Cart" />
       <div className="App-main">
         <CartItems items={cartItems} />
-        <CartTotal />
+        <CartTotal items={cartItems} />
       </div>
     </div>
   );
