@@ -17,10 +17,18 @@ const CartTotal = ({ items }) => {
     return Math.floor(totalPrice);
   };
 
+  const totalTtems = () => {
+    let total_items = 0;
+    items.forEach((item) => {
+      total_items += item.quantity;
+    });
+    return total_items;
+  };
+
   return (
     <div className="CartTotal">
       <h3>
-        Subtotal({items.length} items):
+        Subtotal({totalTtems()} items):
         <span className="cartTotal-price">${getTotalPrice()}</span>
       </h3>
       <button>Proceed to checkout</button>
