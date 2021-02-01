@@ -2,4 +2,4 @@
 ### npm install react-number-format --save
 
 ### Usage
-### ES6  import NumberFormat from 'react-number-format';
+### ES6  import NumberFormat from 'react-number-format'
