@@ -1,10 +1,13 @@
 import React from "react";
 import "./CartItem.css";
 
-// CartItem component(child component)
+// CartItem component
 
-const CartItem = ({ item }) => {
+const CartItem = ({ index, item, changeItemQuantity }) => {
   // console.log("given item is now ", item);
+  // console.log("index is now : ", index);
+  // console.log("given changeItemQuantity() functionn is ", changeItemQuantity);
+
   const { title, stock, price, quantity, image } = item;
 
   // console.log("title is now ", title);
@@ -24,10 +27,16 @@ const CartItem = ({ item }) => {
 
         <div className="item-actions">
           <div className="item-quantity">
-            <select value={quantity}>
+            <select
+              value={quantity}
+              onChange={(event) => changeItemQuantity(event, index)}
+            >
               <option value="1">QTY: 1</option>
               <option value="2">QTY: 2</option>
               <option value="3">QTY: 3</option>
+              <option value="4">QTY: 4</option>
+              <option value="5">QTY: 5</option>
+              <option value="6">QTY: 6</option>
             </select>
           </div>
           <div className="item-actions-divider">|</div>

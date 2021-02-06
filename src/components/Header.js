@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 
-// Header components(child components)
+// Header components
 
 const Header = (props) => {
   const { title } = props;

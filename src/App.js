@@ -8,16 +8,17 @@ import "./App.css";
 // App component(parent component)
 
 const App = () => {
+  // React Hook
   // Declare a new state variable, which we'll call "cartItems"
   const [cartItems, setCartItems] = useState(data);
   // console.log(data);
-  console.log(cartItems);
+  // console.log(cartItems);
 
   return (
     <div className="App">
       <Header title="Amazon Cart" />
       <div className="App-main">
-        <CartItems items={cartItems} />
+        <CartItems items={cartItems} setCartItems={setCartItems} />
         <CartTotal items={cartItems} />
       </div>
     </div>
