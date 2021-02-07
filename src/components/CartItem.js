@@ -3,7 +3,7 @@ import "./CartItem.css";
 
 // CartItem component
 
-const CartItem = ({ index, item, changeItemQuantity }) => {
+const CartItem = ({ index, item, changeItemQuantity, deleteItem }) => {
   // console.log("given item is now ", item);
   // console.log("index is now : ", index);
   // console.log("given changeItemQuantity() functionn is ", changeItemQuantity);
@@ -37,10 +37,13 @@ const CartItem = ({ index, item, changeItemQuantity }) => {
               <option value="4">QTY: 4</option>
               <option value="5">QTY: 5</option>
               <option value="6">QTY: 6</option>
+              <option value="7">QTY: 7</option>
             </select>
           </div>
           <div className="item-actions-divider">|</div>
-          <div className="item-delete">Delete</div>
+          <div className="item-delete" onClick={deleteItem.bind(this, index)}>
+            Delete
+          </div>
         </div>
       </div>
       <div className="CartItem-price">${price}</div>

@@ -4,7 +4,7 @@ import NumberFormat from "react-number-format";
 
 // CartTotal component
 
-const CartTotal = ({ items }) => {
+const CartTotal = ({ items, setCartItems }) => {
   const getTotalPrice = () => {
     // initialize total price to 0
     // loop through all the items in the cart
@@ -12,18 +12,14 @@ const CartTotal = ({ items }) => {
     // return the total price
 
     let totalPrice = 0;
-
-    items.forEach((item) => {
-      totalPrice += item.price * item.quantity;
-    });
+    items.map((item) => (totalPrice += item.price * item.quantity));
     return totalPrice;
   };
 
   const getTotalTtems = () => {
     let totalTtems = 0;
-    items.forEach((item) => {
-      totalTtems += item.quantity;
-    });
+    items.map((item) => (totalTtems += item.quantity));
+    // console.log(totalTtems);
     return totalTtems;
   };
 
