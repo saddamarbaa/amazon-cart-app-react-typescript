@@ -28,7 +28,7 @@ const CartItems = ({ items, setCartItems }) => {
 
   const deleteItem = (indexToDelete) => {
     // console.log("Item Deleted", indexToDelete);
-    console.log("Items before deteing", items);
+    // console.log("Items before deteing", items);
 
     // filter out the items where the items index does not equal to the selected item index
     const newItems = items.filter((item, index) => {
@@ -36,7 +36,7 @@ const CartItems = ({ items, setCartItems }) => {
       return index !== indexToDelete;
     });
 
-    console.log("Items aftere deteing", newItems);
+    // console.log("Items aftere deteing", newItems);
     setCartItems(newItems); // change state
   };
 

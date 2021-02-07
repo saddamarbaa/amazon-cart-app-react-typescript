@@ -4,15 +4,7 @@ import "./CartItem.css";
 // CartItem component
 
 const CartItem = ({ index, item, changeItemQuantity, deleteItem }) => {
-  // console.log("given item is now ", item);
-  // console.log("index is now : ", index);
-  // console.log("given changeItemQuantity() functionn is ", changeItemQuantity);
-
   const { title, stock, price, quantity, image } = item;
-
-  // console.log("title is now ", title);
-  // console.log("Stock is now ", stock);
-
   return (
     <div className="CartItem">
       <div className="CartItem-image">
