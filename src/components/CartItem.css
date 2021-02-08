@@ -3,6 +3,7 @@
   border-bottom: 1px solid #ddd;
   padding-top: 12px;
   padding-bottom: 12px;
+  flex-direction: column;
 }
 
 .CartItem-image {
@@ -10,7 +11,8 @@
   height: 180px;
   flex-grow: 0;
   flex-shrink: 0;
-  margin-right: 16px;
+  padding-bottom: 12px;
+  margin-right: 1px;
 }
 
 .CartItem-image img {
@@ -19,8 +21,8 @@
   object-fit: contain;
 }
 
-.CartItem-info {
-  flex-grow: 1;
+.info-title {
+  margin-left: 16px;
 }
 
 .info-title h2 {
@@ -32,12 +34,14 @@
 .info-stock {
   margin-top: 4px;
   color: #007600;
+  margin-left: 16px;
 }
 
 .item-actions {
   margin-top: 4px;
   display: flex;
   align-items: center;
+  margin-left: 16px;
 }
 
 .item-quantity select {
@@ -72,4 +76,23 @@
   font-size: 18px;
   font-weight: 700;
   margin-left: 16px;
+  padding-top: 10px;
+  padding-top: 10px;
+}
+
+/********** Media Queries (If the screen size is 992px or larger ) **********/
+
+@media (min-width: 992px) {
+  .CartItem {
+    flex-direction: row;
+  }
+
+  .CartItem-info {
+    flex-grow: 1;
+  }
+
+  .CartItem-price {
+    padding-top: 0px;
+    padding-top: 0px;
+  }
 }

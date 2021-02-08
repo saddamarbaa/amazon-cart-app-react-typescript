@@ -22,7 +22,7 @@ const CartItems = ({ items, setCartItems }) => {
 
     // deep copy
     const newItems = [...items];
-    newItems[index].quantity = event.target.value;
+    newItems[index].quantity = parseInt(event.target.value);
     setCartItems(newItems); // change state
   };
 
