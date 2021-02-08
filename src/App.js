@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 import CartItems from "./components/CartItems";
 import CartTotal from "./components/CartTotal";
 import data from "./Data";
@@ -16,6 +17,7 @@ const App = () => {
         <CartItems items={cartItems} setCartItems={setCartItems} />
         <CartTotal items={cartItems} />
       </div>
+      <Footer />
     </div>
   );
 };

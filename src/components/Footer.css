@@ -1,0 +1,9 @@
+.App-Footer {
+  display: flex;
+  background-color: #0a2546;
+  color: #999;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  padding: 1rem;
+}

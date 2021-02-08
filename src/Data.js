@@ -34,6 +34,20 @@ const items = [
     price: "39.99",
     quantity: 3,
   },
+  {
+    title: "Samsung Galaxy Note 10, 256GB",
+    stock: "In Stock",
+    image: "item-6.jpg",
+    price: "569.00",
+    quantity: 1,
+  },
+  {
+    title: "Nulaxy A5 Tablet Stand- Heavy Duty Black",
+    stock: "In stock on February 7, 2021",
+    image: "item-7.jpg",
+    price: "569.00",
+    quantity: 1,
+  },
 ];
 
 export default items;
