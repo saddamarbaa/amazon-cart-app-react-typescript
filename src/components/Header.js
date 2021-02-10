@@ -1,13 +1,8 @@
 import React from "react";
 import "./Header.css";
 
-// Header components
-
-const Header = (props) => {
-  const { title } = props;
-  // console.log(props);
-  // console.log(title);
-
+// Header component
+const Header = ({ title }) => {
   return (
     <div className="App-header">
       <h1>{title}</h1>

@@ -1,10 +1,11 @@
 import React from "react";
 import "./CartItem.css";
+import NumberFormat from "react-number-format";
 
 // CartItem component
-
 const CartItem = ({ index, item, changeItemQuantity, deleteItem }) => {
   const { title, stock, price, quantity, image } = item;
+
   return (
     <div className="CartItem">
       <div className="CartItem-image">
@@ -38,7 +39,15 @@ const CartItem = ({ index, item, changeItemQuantity, deleteItem }) => {
           </div>
         </div>
       </div>
-      <div className="CartItem-price">${price}</div>
+      <div className="CartItem-price">
+        <NumberFormat
+          value={price}
+          displayType={"text"}
+          thousandSeparator={true}
+          prefix={"$"}
+          decimalScale={2}
+        />
+      </div>
     </div>
   );
 };

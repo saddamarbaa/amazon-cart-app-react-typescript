@@ -50,4 +50,8 @@ const items = [
   },
 ];
 
+const itemsFixPrice = [769.0, 49.88, 745.05, 399.0, 39.99, 569.0, 569.0];
+
+export { itemsFixPrice };
+
 export default items;
