@@ -1,3 +1,8 @@
+# amazon cart
+Amazon Cart built with ReactJs in this project I learned reacts 
+basis, NPM, Component, Props, JSX, Virtual DOM, Styling in ReactJS, 
+Deploy Project, Hooks and more the goal was to learn React Js fundamental in real projects
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
