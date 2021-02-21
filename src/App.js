@@ -7,7 +7,6 @@ import data from "./Data";
 import { itemsFixPrice } from "./Data";
 import "./App.css";
 
-// App component(parent component)
 const App = () => {
   const [cartItems, setCartItems] = useState(data);
   const [fixedPrice, setfixedPrice] = useState(itemsFixPrice);

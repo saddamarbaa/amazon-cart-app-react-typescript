@@ -4,6 +4,7 @@
   padding-top: 0;
   min-width: 80vw;
   margin-right: 18px;
+  max-width: 80vw;
 }
 
 .CartTotal h3 {

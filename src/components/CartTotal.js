@@ -2,7 +2,6 @@ import React from "react";
 import "./CartTotal.css";
 import NumberFormat from "react-number-format";
 
-// CartTotal component
 const CartTotal = ({ items }) => {
   const getTotalPrice = () => {
     // initialize total price to 0

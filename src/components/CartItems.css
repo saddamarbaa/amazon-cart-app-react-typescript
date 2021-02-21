@@ -4,6 +4,7 @@
   margin-right: 18px;
   padding: 20px;
   min-width: 80vw;
+  max-width: 80vw;
 }
 
 /********** Media Queries (If the screen size is 992px or larger ) **********/

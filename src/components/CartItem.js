@@ -2,7 +2,6 @@ import React from "react";
 import "./CartItem.css";
 import NumberFormat from "react-number-format";
 
-// CartItem component
 const CartItem = ({ index, item, changeItemQuantity, deleteItem }) => {
   const { title, stock, price, quantity, image } = item;
 

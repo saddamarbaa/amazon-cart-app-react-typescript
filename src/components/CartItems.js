@@ -2,7 +2,6 @@ import React from "react";
 import CartItem from "./CartItem";
 import "./CartItems.css";
 
-// CartItems component
 const CartItems = ({ items, setCartItems, fixedPrice }) => {
   const changeItemQuantity = (event, index) => {
     // step
