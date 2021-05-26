@@ -8,23 +8,23 @@ import { itemsFixPrice } from "./Data";
 import "./App.css";
 
 const App = () => {
-  const [cartItems, setCartItems] = useState(data);
-  const [fixedPrice, setfixedPrice] = useState(itemsFixPrice);
+	const [cartItems, setCartItems] = useState(data);
+	const [fixedPrice, setFixedPrice] = useState(itemsFixPrice);
 
-  return (
-    <div className="App">
-      <Header title="Amazon Cart" />
-      <div className="App-main">
-        <CartItems
-          items={cartItems}
-          setCartItems={setCartItems}
-          fixedPrice={fixedPrice}
-        />
-        <CartTotal items={cartItems} />
-      </div>
-      <Footer />
-    </div>
-  );
+	return (
+		<div className='App'>
+			<Header title='Amazon Cart' />
+			<div className='App-main'>
+				<CartItems
+					items={cartItems}
+					setCartItems={setCartItems}
+					fixedPrice={fixedPrice}
+				/>
+				<CartTotal items={cartItems} />
+			</div>
+			<Footer />
+		</div>
+	);
 };
 
 export default App;

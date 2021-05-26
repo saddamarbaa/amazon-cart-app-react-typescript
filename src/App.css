@@ -1,18 +1,24 @@
+/** @format */
+
+*:focus {
+	outline: 0 !important;
+}
+
 body {
-  background-color: #eaeded;
+	background-color: #eaeded;
 }
 
 .App-main {
-  display: flex;
-  flex-direction: column;
-  padding: 14px 18px 0 18px;
-  align-items: flex-start;
+	display: flex;
+	flex-direction: column;
+	padding: 14px 18px 0 18px;
+	align-items: flex-start;
 }
 
 /********** Media Queries (If the screen size is 992px or larger ) **********/
 
 @media (min-width: 992px) {
-  .App-main {
-    flex-direction: row;
-  }
+	.App-main {
+		flex-direction: row;
+	}
 }
