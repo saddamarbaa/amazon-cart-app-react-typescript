@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "cart-35e22",
+    "amzon-cart": "cart-react-576c5"
+  }
+}
