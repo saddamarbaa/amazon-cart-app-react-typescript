@@ -6,6 +6,7 @@ Deploy Project, Hooks and more the goal was to learn React Js fundamental in rea
 
 
 # <a href="https://cart-react-576c5.web.app/">Live Demo </a>
+# <a href="https://www.loom.com/share/a84fe70058ef447985d66eb784c2e2e8"> Live Video Demo </a>
 
 
 # responsive on large screens
