@@ -1,18 +1,16 @@
 .CartItems {
-  background-color: white;
-  flex: 0.7;
-  margin-right: 18px;
-  padding: 20px;
-  min-width: 80vw;
-  max-width: 80vw;
+	background-color: white;
+	flex: 0.7;
+	margin-right: 18px;
+	padding: 20px;
+	min-width: 80vw;
+	max-width: 80vw;
 }
 
 /********** Media Queries (If the screen size is 992px or larger ) **********/
 
 @media (min-width: 992px) {
-  .CartItems {
-    min-width: auto;
-  }
+	.CartItems {
+		min-width: auto;
+	}
 }
-
-
