@@ -31,11 +31,19 @@ Amazon Cart built with ReactJs in this project I learned reacts basis, NPM, Comp
 
 # Related_Projects
 
-### Amazon Clone App built with React Js + Redux + Styled Components + Material-UI + Cloud Functions + Firebase Hosting + User Authentication
+### Amazon Clone App built with React Js + TypeScript + Redux + Styled Components
 
-### <a href="https://github.com/saddamarbaa/amazon-clone-app"> Github Repo </a>
+### <a href="https://github.com/saddamarbaa/amazon-clone-app-react-typescript"> Github Repo </a>
 
-### <a href="https://amazoon-clone-app.web.app/">LIVE DEMO</a>
+### <a href="https://amazon-clone-murex-six.vercel.app/">LIVE DEMO</a>
+
+
+### Airbnb Clone App built with React Js + Next Js + TypeScript + Redux + Tailwind CSS
+
+### <a href="https://github.com/saddamarbaa/airbnb-clone-app-nex-js"> Github Repo </a>
+
+### <a href="https://airbnb-clone-app-nex-js.vercel.app/">LIVE DEMO</a>
+
 
 # Contributing
 
